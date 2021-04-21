@@ -1,9 +1,8 @@
-function App() {
+import TextEditor from "./TextEditor";
+
+
+export default function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <TextEditor />
   );
 }
-
-export default App;
